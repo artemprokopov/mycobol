@@ -16,9 +16,9 @@
         01 Result              PIC 999 VALUE ZEROS.
         PROCEDURE DIVISION.
         CalculateResult.
-        DISPLAY "Enter a single digit number - " WITH NO ADVANCING
+        DISPLAY "Введите однозначное число - " WITH NO ADVANCING
         ACCEPT Num1
-        DISPLAY "Enter a single digit number - " WITH NO ADVANCING
+        DISPLAY "Введите однозначное число - " WITH NO ADVANCING
         ACCEPT Num2
         COMPUTE
            Result ROUNDED = Num1 * Num2
